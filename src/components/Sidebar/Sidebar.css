@@ -1,0 +1,34 @@
+.Aside {
+    background: rgb(46, 52, 64);
+    box-shadow: 2px 0 4px 2px rgba(46, 52, 64, 0.5);
+    align-self: stretch;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.Nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.Nav-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #D8DEE9;
+}
+
+.Nav-link {
+    color: #D8DEE9;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    transition: 0.5s;
+}
+
+.active-menu {
+    color: #A3BE8C;
+}
+
+.Nav-link:hover {
+    color: #A3BE8C;
+}
