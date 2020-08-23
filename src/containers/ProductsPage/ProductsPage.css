@@ -1,0 +1,17 @@
+.Products-page {
+    background: url("../../assets/img/product-bg.jpg") center/cover no-repeat;
+    position: relative;
+    padding-right: 50px;
+    transform: translateX(2000px);
+    animation: mount 1s forwards;
+}
+
+.Products-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
