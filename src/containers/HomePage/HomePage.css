@@ -1,0 +1,5 @@
+.Home-page {
+    transition: 0.7s;
+    transform: translateX(2000px);
+    animation: mount 1s forwards;
+}
