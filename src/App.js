@@ -8,6 +8,7 @@ import {
 import Sidebar from "./components/Sidebar/Sidebar";
 import HomePage from "./containers/HomePage/HomePage";
 import ProductsPage from "./containers/ProductsPage/ProductsPage";
+import AboutPage from "./containers/AboutPage/AboutPage";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
                     <ProductsPage />
                 </Route>
                 <Route path="/about">
-                    <p>About</p>
+                    <AboutPage />
                 </Route>
             </Switch>
         </BrowserRouter>
