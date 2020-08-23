@@ -35,10 +35,15 @@ const ProductsPage = () => {
         }
     ]);
 
+    const getMoreInfoAboutTour = () => {
+        window.alert('Information will be added some time');
+    }
+
     return (
         <div className="Products-page">
             <Products
                 products={product}
+                getMoreInfoAboutTour={getMoreInfoAboutTour}
             />
         </div>
     );

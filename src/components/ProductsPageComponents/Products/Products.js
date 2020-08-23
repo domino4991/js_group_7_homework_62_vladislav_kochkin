@@ -14,6 +14,7 @@ const Products = props => {
                     pathImage={item.pathImage}
                     desc={item.desc}
                     duration={duration += 0.5}
+                    clicked={() => props.getMoreInfoAboutTour()}
                 />)}
             </div>
             <div className="Products-info">
