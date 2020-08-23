@@ -12,6 +12,7 @@
   grid-template-columns: 150px 1fr;
   grid-template-rows: 1fr;
   overflow-x: hidden;
+  background: #4C566A;
 }
 
 @keyframes mount {

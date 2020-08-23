@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Sidebar from "./components/Sidebar/Sidebar";
 import HomePage from "./containers/HomePage/HomePage";
+import ProductsPage from "./containers/ProductsPage/ProductsPage";
 
 const App = () => {
   return (
@@ -17,8 +18,8 @@ const App = () => {
                 <Route path="/" exact>
                     <HomePage />
                 </Route>
-                <Route path="/products" >
-                    <p>products</p>
+                <Route path="/tours" >
+                    <ProductsPage />
                 </Route>
                 <Route path="/about">
                     <p>About</p>
