@@ -1,0 +1,12 @@
+.Logo {
+    color: #D8DEE9;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 40px;
+    display: block;
+    transition: 0.5s;
+}
+
+.Logo:hover {
+    color: #A3BE8C;
+}
