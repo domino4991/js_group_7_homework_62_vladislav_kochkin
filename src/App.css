@@ -11,5 +11,11 @@
   height: 100vh;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 30px;
+  overflow-x: hidden;
+}
+
+@keyframes mount {
+  100% {
+    transform: translateX(0);
+  }
 }

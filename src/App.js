@@ -6,6 +6,7 @@ import {
     Route
 } from "react-router-dom";
 import Sidebar from "./components/Sidebar/Sidebar";
+import HomePage from "./containers/HomePage/HomePage";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
             <Sidebar />
             <Switch>
                 <Route path="/" exact>
-                    <p>Home</p>
+                    <HomePage />
                 </Route>
                 <Route path="/products" >
                     <p>products</p>
