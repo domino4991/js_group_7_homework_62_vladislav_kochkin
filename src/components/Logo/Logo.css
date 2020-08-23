@@ -10,3 +10,7 @@
 .Logo:hover {
     color: #A3BE8C;
 }
+
+.active {
+    color: #A3BE8C;
+}
