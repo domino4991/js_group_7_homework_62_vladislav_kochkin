@@ -19,10 +19,10 @@ const Sidebar = React.memo(() => {
                     </li>
                     <li className="Nav-item">
                         <NavLink
-                            to="/products"
+                            to="/tours"
                             className="Nav-link"
                             activeClassName="active-menu"
-                        >Products</NavLink>
+                        >Tours</NavLink>
                     </li>
                     <li className="Nav-item">
                         <NavLink
