@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
-import Banner from "../../components/Banner/Banner";
-import Adventages from "../../components/Adventages/Adventages";
+import Banner from "../../components/HomePageComponents/Banner/Banner";
+import Adventages from "../../components/HomePageComponents/Adventages/Adventages";
 
 const HomePage = () => {
 
