@@ -1,0 +1,23 @@
+.Products {
+    padding: 20px 0 0 100px;
+    position: relative;
+    z-index: 9;
+    color: #D8DEE9;
+}
+
+.Products-title {
+    margin-bottom: 50px;
+}
+
+.Products-items {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.Products-info {
+    width: 40%;
+    line-height: 1.6;
+}
