@@ -3,37 +3,15 @@ import './App.css';
 import {
     BrowserRouter,
     Switch,
-    Route,
-    NavLink
+    Route
 } from "react-router-dom";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 const App = () => {
   return (
     <div className="App">
         <BrowserRouter>
-            <nav className="Nav">
-                <ul className="Nav-list">
-                    <li className="Nav-item">
-                        <NavLink
-                            to="/"
-                            exact
-                            activeClassName="active-menu"
-                        >Home</NavLink>
-                    </li>
-                    <li className="Nav-item">
-                        <NavLink
-                            to="/products"
-                            activeClassName="active-menu"
-                        >Products</NavLink>
-                    </li>
-                    <li className="Nav-item">
-                        <NavLink
-                            to="/about"
-                            activeClassName="active-menu"
-                        >About Us</NavLink>
-                    </li>
-                </ul>
-            </nav>
+            <Sidebar />
             <Switch>
                 <Route path="/" exact>
                     <p>Home</p>
