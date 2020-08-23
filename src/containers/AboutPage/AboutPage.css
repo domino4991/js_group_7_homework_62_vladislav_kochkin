@@ -1,0 +1,12 @@
+.About-section {
+    background: #ECEFF4;
+    padding: 20px 20px 0 100px;
+    color: #2E3440;
+    transform: translateX(2000px);
+    animation: mount 1s forwards;
+}
+
+.About-section__title {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
