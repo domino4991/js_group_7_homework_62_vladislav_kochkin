@@ -3,7 +3,7 @@ import './Sidebar.css';
 import {NavLink} from "react-router-dom";
 import Logo from "../Logo/Logo";
 
-const Sidebar = () => {
+const Sidebar = React.memo(() => {
     return (
         <aside className="Aside">
             <Logo />
@@ -35,6 +35,6 @@ const Sidebar = () => {
             </nav>
         </aside>
     );
-};
+});
 
 export default Sidebar;
